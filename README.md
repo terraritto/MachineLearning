@@ -5,3 +5,9 @@
 (If I want to make something new, I'll stand new repo.)    
 以下追加したもの(add code below)  
 * AND,OR,NAND,XOR gate
+
+# 環境
+忘れかけてたので書いとく
+* keras 2.3.1
+* tensorflow 1.15.0
+* matplotlib 2.0.0
