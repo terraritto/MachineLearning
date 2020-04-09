@@ -19,7 +19,7 @@ img_shape = (img_rows,img_cols, channels)
 z_dim = 100
 
 # *----- 生成器の実装 -----*
-def BuildGenerator(img_shape, z_dim):
+def BuildGenerator(z_dim):
     model = Sequential()
     # 全結合層により、7x7x256のテンソルへ変換する
     model.add(Dense(256*7*7,input_dim=z_dim))
